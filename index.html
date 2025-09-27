@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio of Terrence Okeke — Web Developer skilled in HTML, CSS, Java, and MySQL. Projects, contact, and resume." />
+  <title>Terrence's Portfolio</title>
+
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="nav" role="navigation" aria-label="Main">
+    <div class="brand" aria-label="Brand">TO</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <button id="themeToggle" class="theme-switch" aria-label="Toggle theme">
+        <span class="switch-handle"><i class="fas fa-moon"></i></span>
+      </button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
+    </div>
+  </nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-inner">
+    <h1>Hi, I’m <span class="highlight">Terrence</span></h1>
+    <p class="tagline">Aspiring <span id="typed">Web Developer</span></p>
+    <div class="cta">
+      <a href="#projects" class="btn">See My Work</a>
+      <a href="#contact" class="btn ghost">Get In Touch</a>
+      <a href="documents/terrenceokeke-resume.pdf" class="btn outline" download>Download Résumé</a>
+    </div>
+  </div>
+
+  <!-- Characters -->
+  <div class="hero-characters">
+    <!-- Behind text -->
+    <img src="images/character1.png" alt="Character 1" class="character-behind" />
+    <!-- Floating side -->
+    <img src="images/character2.png" alt="Character 2" class="character-side" />
+  </div>
+
+  <div class="hero-bg" aria-hidden="true"></div>
+</header>
+
+
+
+
+  <!-- ABOUT -->
+  <section id="about" class="section fade-up" aria-labelledby="about-title">
+    <div class="container">
+      <h2 id="about-title">About</h2>
+      <p>
+        Computer Science graduate with hands-on experience in HTML, CSS, Java, and MySQL.
+        I build clean, responsive websites and practical tools that solve real problems, while also being 
+        a creative graphic designer and 3D artist.
+      </p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section fade-up" aria-labelledby="skills-title">
+    <div class="container">
+      <h2 id="skills-title">Skills</h2>
+      <div class="skills-card">
+        <div class="bar"><span>HTML</span><div class="progress"><div class="progress-fill" data-percent="90"></div></div></div>
+        <div class="bar"><span>CSS</span><div class="progress"><div class="progress-fill" data-percent="80"></div></div></div>
+        <div class="bar"><span>Java</span><div class="progress"><div class="progress-fill" data-percent="75"></div></div></div>
+        <div class="bar"><span>MySQL</span><div class="progress"><div class="progress-fill" data-percent="70"></div></div></div>
+        <div class="bar"><span>Photoshop</span><div class="progress"><div class="progress-fill" data-percent="100"></div></div></div>
+        <div class="bar"><span>Autodesk Maya</span><div class="progress"><div class="progress-fill" data-percent="80"></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+<div class="projects-grid">
+  <!-- ORIGINAL 4 PROJECTS -->
+  <article class="project-card">
+    <div class="project-image">
+      <img src="images/branding-mockup.jpg" alt="Branding mockup project screenshot">
+    </div>
+    <div class="project-body">
+      <h3>Company Branding & Mockups</h3>
+      <p>Complete branding system including logo, typography, and visual mockups.</p>
+      <ul class="project-tags">
+        <li>Branding</li>
+        <li>Graphic Design</li>
+        <li>Mockups</li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="project-card">
+    <div class="project-image">
+      <img src="images/portfolio-site.png" alt="Portfolio site screenshot">
+    </div>
+    <div class="project-body">
+      <h3>Personal Portfolio Website</h3>
+      <p>Responsive personal website with dark/light mode, animations, and project showcase.</p>
+      <ul class="project-tags">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="project-card">
+    <div class="project-image">
+      <img src="images/2.png" alt="Poster design project screenshot">
+    </div>
+    <div class="project-body">
+      <h3>Creative Poster Design</h3>
+      <p>Designed event posters and marketing assets using Photoshop and Illustrator.</p>
+      <ul class="project-tags">
+        <li>Graphic Design</li>
+        <li>Photoshop</li>
+        <li>Illustrator</li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="project-card">
+    <div class="project-image">
+      <img src="images/3d-model.jpg" alt="3D modeling project screenshot">
+    </div>
+    <div class="project-body">
+      <h3>3D Character Modeling</h3>
+      <p>Created 3D assets in Autodesk Maya, focusing on topology, rigging, and rendering.</p>
+      <ul class="project-tags">
+        <li>3D Modeling</li>
+        <li>Maya</li>
+        <li>Rendering</li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="project-card">
+    <div class="project-image">
+      <img src="images/sharonsLogo.png" alt="Logo Design">
+    </div>
+    <div class="project-body">
+      <h3>Logo Design</h3>
+      <p>Created 3D assets in Autodesk Maya, focusing on topology, rigging, and rendering.</p>
+      <ul class="project-tags">
+        <li>Branding</li>
+        <li>Logo</li>
+        <li>Adobe Photoshop</li>
+      </ul>
+    </div>
+  </article>
+
+  <!-- DUPLICATE THE SAME 4 PROJECTS FOR LOOPING -->
+  <article class="project-card">
+    <div class="project-image">
+      <img src="images/branding-mockup.jpg" alt="Branding mockup project screenshot duplicate">
+    </div>
+    <div class="project-body">
+      <h3>Company Branding & Mockups</h3>
+      <p>Complete branding system including logo, typography, and visual mockups.</p>
+      <ul class="project-tags">
+        <li>Branding</li>
+        <li>Graphic Design</li>
+        <li>Mockups</li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="project-card">
+    <div class="project-image">
+      <img src="images/portfolio-site.png" alt="Portfolio site screenshot duplicate">
+    </div>
+    <div class="project-body">
+      <h3>Personal Portfolio Website</h3>
+      <p>Responsive personal website with dark/light mode, animations, and project showcase.</p>
+      <ul class="project-tags">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="project-card">
+    <div class="project-image">
+      <img src="images/2.png" alt="Poster design project screenshot duplicate">
+    </div>
+    <div class="project-body">
+      <h3>Creative Poster Design</h3>
+      <p>Designed event posters and marketing assets using Photoshop and Illustrator.</p>
+      <ul class="project-tags">
+        <li>Graphic Design</li>
+        <li>Photoshop</li>
+        <li>Illustrator</li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="project-card">
+    <div class="project-image">
+      <img src="images/3d-model.jpg" alt="3D modeling project screenshot duplicate">
+    </div>
+    <div class="project-body">
+      <h3>3D Character Modeling</h3>
+      <p>Created 3D assets in Autodesk Maya, focusing on topology, rigging, and rendering.</p>
+      <ul class="project-tags">
+        <li>3D Modeling</li>
+        <li>Maya</li>
+        <li>Rendering</li>
+      </ul>
+    </div>
+  </article>
+</div>
+
+
+  <!-- CONTACT -->
+  <section id="contact" class="section fade-up" aria-labelledby="contact-title">
+    <div class="container">
+      <h2 id="contact-title">Contact</h2>
+      <p>Interested in working together? Drop me a message below.</p>
+
+      <form id="contactForm" action="https://formspree.io/f/mnngavly" method="POST" class="contact-form" aria-describedby="formMessage">
+        <div class="form-group"><label for="name">Name</label><input id="name" type="text" name="name" placeholder="Your name" required /></div>
+        <div class="form-group"><label for="email">Email</label><input id="email" type="email" name="email" placeholder="Your email" required /></div>
+        <div class="form-group"><label for="message">Message</label><textarea id="message" name="message" rows="6" placeholder="Your message" required></textarea></div>
+        <button type="submit" class="btn">Send Message</button>
+        <p id="formMessage" class="form-message" role="status" aria-live="polite"></p>
+      </form>
+
+      <div class="contact-socials">
+        <a href="#" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+        <a href="#" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+        <a href="#" target="_blank" rel="noopener"><i class="fas fa-briefcase"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer><p>© 2025 - Terrence Okeke</p></footer>
+
+  <script src="script.js"></script>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" class="lightbox">
+    <span class="lightbox-close">&times;</span>
+    <span class="lightbox-prev">&#10094;</span>
+    <img class="lightbox-content" id="lightbox-img" alt="">
+    <span class="lightbox-next">&#10095;</span>
+  </div>
+</body>
+</html>
